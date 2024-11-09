@@ -1,12 +1,57 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(¿cómo-mantener-el-color-de-la-ropa_-_-fab.jpg);
+    background-image: url(basi.jpg);
     background-position: center center;
     background-repeat: no-repeat ;
     background-size: cover;
     background-attachment: fixed;
     margin: 0 auto;
     padding: 20px;
+}
+header{
+    color: white;
+    padding: 0.1em;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #69646462;
+    border-radius: 4px;
+}
+.navbar{
+
+}
+
+.navbar > ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.navbar a:{
+color: black;
+padding: 0  60px;
+text-align: center;
+}
+.navbar a:hover{
+    background-color: white;
+}
+a {
+    color:black;
+    text-decoration: 0;
+}
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    background-color: #ccc;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
 }
 h1{
     text-align: center;
@@ -23,9 +68,10 @@ input,textarea,select{
     margin-bottom: 15px;
     border: ipx solid #ccc;
     border-radius: 4px;
+    cursor: pointer;
 }
 input[type="submit"]{
-    background-color: darkcyan;
+    background-color: rgb(143, 170, 170);
     color: black;
     border: none;
     cursor: pointer;
@@ -35,9 +81,24 @@ input[type="submit"]:hover{
 }
 .container{
     max-width: 500px;
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 30px;
     background-color: rgb(202, 202, 202);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+@media (max-width:758px) {
+    nav ul {
+        display: none; 
+        flex-direction: column; 
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
 }
