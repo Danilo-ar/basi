@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(¿cómo-mantener-el-color-de-la-ropa_-_-fab.jpg);
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+label{
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input,textarea,select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: ipx solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    background-color: darkcyan;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: azure;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Básico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro</h1>
+        <form>
+            <label>* Nombre</label>
+            <input type="text" name=" Nombre" required>
+            <label>* Correo Electronico</label>
+            <input type="email" name="email" required>
+            <label>* País</label>
+            <select name="pais" id="pais" required>
+                <option disabled="" selected="">Seleciona tu país</option>
+                <option value="co">Colombia</option>
+                <option value="es">España</option>
+                <option value="ar">Argentina</option>
+                <option value="mx">Mexico</option>
+            </select>
+            <input type="submit" name="" value="Enviar">
+            <p>* Campo obligatorio</p>
+        </form>
+    </div>
+</body>
+</html>
